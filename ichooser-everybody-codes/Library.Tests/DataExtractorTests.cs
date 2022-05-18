@@ -1,3 +1,4 @@
+using Library.Data;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Library.Tests

@@ -19,7 +19,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Data\cameras-defb.csv">
+    <Folder Include="Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Data\cameras-defb.csv" Link="Data\cameras-defb.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

@@ -11,7 +11,6 @@ C:\Users\mathe\source\repos\ichooser-everybody-codes\ichooser-everybody-codes\Li
 C:\Users\mathe\source\repos\ichooser-everybody-codes\ichooser-everybody-codes\Library.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\mathe\source\repos\ichooser-everybody-codes\ichooser-everybody-codes\Library.Tests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Users\mathe\source\repos\ichooser-everybody-codes\ichooser-everybody-codes\Library.Tests\bin\Debug\net6.0\Microsoft.TestPlatform.AdapterUtilities.dll
-C:\Users\mathe\source\repos\ichooser-everybody-codes\ichooser-everybody-codes\Library.Tests\bin\Debug\net6.0\Data\cameras-defb.csv
 C:\Users\mathe\source\repos\ichooser-everybody-codes\ichooser-everybody-codes\Library.Tests\bin\Debug\net6.0\Library.Tests.deps.json
 C:\Users\mathe\source\repos\ichooser-everybody-codes\ichooser-everybody-codes\Library.Tests\bin\Debug\net6.0\Library.Tests.runtimeconfig.json
 C:\Users\mathe\source\repos\ichooser-everybody-codes\ichooser-everybody-codes\Library.Tests\bin\Debug\net6.0\Library.Tests.dll
@@ -100,3 +99,4 @@ C:\Users\mathe\source\repos\ichooser-everybody-codes\ichooser-everybody-codes\Li
 C:\Users\mathe\source\repos\ichooser-everybody-codes\ichooser-everybody-codes\Library.Tests\obj\Debug\net6.0\Library.Tests.pdb
 C:\Users\mathe\source\repos\ichooser-everybody-codes\ichooser-everybody-codes\Library.Tests\obj\Debug\net6.0\Library.Tests.genruntimeconfig.cache
 C:\Users\mathe\source\repos\ichooser-everybody-codes\ichooser-everybody-codes\Library.Tests\obj\Debug\net6.0\ref\Library.Tests.dll
+C:\Users\mathe\source\repos\ichooser-everybody-codes\ichooser-everybody-codes\Library.Tests\bin\Debug\net6.0\Data\cameras-defb.csv

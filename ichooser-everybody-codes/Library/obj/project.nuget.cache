@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zZIdHWnl6elvWzwMKI18kffXrFAGffV7xtVUiGfwVTtFLalEZw8rfFoehlLMiMr9c9Ggy7lZADUSqWpLBEg7tQ==",
+  "dgSpecHash": "gJHmjpjBdh1PXQwF9rzaA5zHNWispEEAJcu43QQlTl9zFt7fYgfKnHhH2b2SdLW+7V1Uaa0MDBcEuKg+AeF5Zg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mathe\\source\\repos\\ichooser-everybody-codes\\ichooser-everybody-codes\\Library\\Library.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mathe\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
