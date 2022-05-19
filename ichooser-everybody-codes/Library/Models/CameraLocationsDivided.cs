@@ -69,7 +69,7 @@
         public bool IsNotDivisibleByThreeAndFive(int number)
         {
             return number == 0 ? false :
-                (IsDivisibleByThree(number) && IsDivisibleByFive(number) == false);
+                (!IsDivisibleByThree(number) && !IsDivisibleByFive(number));
         }
     }
 }

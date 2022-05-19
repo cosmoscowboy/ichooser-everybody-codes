@@ -14,9 +14,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{C512A1E3-D
 		Data\cameras-defb.csv = Data\cameras-defb.csv
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search.WebApi", "Search.WebApi\Search.WebApi.csproj", "{98C1D3A5-7B05-423C-A351-1B82083C4765}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Search.WebApi", "Search.WebApi\Search.WebApi.csproj", "{98C1D3A5-7B05-423C-A351-1B82083C4765}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search.Web", "Search.Web\Search.Web.csproj", "{A338E06D-4B1E-4A53-AA89-823DF36DD318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Search.Web", "Search.Web\Search.Web.csproj", "{A338E06D-4B1E-4A53-AA89-823DF36DD318}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
