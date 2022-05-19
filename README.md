@@ -68,7 +68,7 @@ The second part consists of showing the camera locations as markers on a map.
 Show _all_ cameras in the `div` with id _map_ in the given [code/index.html](code/index.html).
 You can use your preferred Map-tool, but if you don't have a preference, then we suggest that you look at using a combi of [Leaflet JavaScript library](https://leafletjs.com/examples/quick-start/) with the map pictures via a [free MapBox account](https://www.mapbox.com/studio/account/tokens/) (which uses OpenStreetMap). In that case, [the coordinates 52.0914 by 5.1115 will give you a centered view of Utrecht](https://www.openstreetmap.org/#map=14/52.0914/5.1115).
 
-> * I was very keen to use the 'Leaflet JavaScript library', up until the point where I had to enter my credit card for a 'free' mapbox account. I didn't feal reassured after reading **"Get started for free | Only pay for what you use"**. Perhaps I can finish off the second part when I speak with the enthusiastic iChoosr techies, and can you one of their 'access tokens'.
+> I was very keen to use the 'Leaflet JavaScript library', up until the point where I had to enter my credit card for a 'free' mapbox account. I didn't feal reassured after reading **"Get started for free | Only pay for what you use"**. Perhaps I can finish off the second part when I speak with the enthusiastic iChoosr techies, and can you one of their 'access tokens'.
 
 
 ## Wut? Open Source?!
