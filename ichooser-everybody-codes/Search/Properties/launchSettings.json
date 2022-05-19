@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Search": {
+      "commandName": "Project",
+      "commandLineArgs": "--name Neude"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "environmentVariables": {},
+      "distributionName": ""
+    }
+  }
+}

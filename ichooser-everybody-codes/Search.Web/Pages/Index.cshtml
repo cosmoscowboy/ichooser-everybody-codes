@@ -1,0 +1,163 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Infi | Security cameras Utrecht";
+}
+
+<h1>Security cameras Utrecht</h1>
+<div id="map"></div>
+<div id="source">
+    source:
+    <a href="https://data.overheid.nl/dataset/camera-s">https://data.overheid.nl/dataset/camera-s</a>
+</div>
+<main>
+    @if (Model.ErrorGettingModel)
+    {
+        <h1>Error retrieving the camera information.</h1>
+        <h2>Did you first run an instance of the project <i>Search.WebApi</i> without debugging?</h2>
+    }
+    else
+    {
+        <table id="cameraTableContainer">
+            <tbody>
+                <tr>
+                    <td>
+                        <table id="column3">
+                            <thead>
+                                <tr>
+                                    <th colspan="4">Cameras 3</th>
+                                </tr>
+                                <tr>
+                                    <th>Number</th>
+                                    <th>Name</th>
+                                    <th>Latitude</th>
+                                    <th>Longitude</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.CameraLocationsDivided?.DivisibleByThree != null)
+                                {
+                                    foreach (var cameraLocation in Model.CameraLocationsDivided.DivisibleByThree)
+                                    {
+                                        <tr>
+                                            <th>@cameraLocation.Number</th>
+                                            <th>@cameraLocation.Name</th>
+                                            <th>@cameraLocation.Latitude</th>
+                                            <th>@cameraLocation.Longitude</th>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </td>
+                    <td>
+                        <table id="column5">
+                            <thead>
+                                <tr>
+                                    <th colspan="4">Cameras 5</th>
+                                </tr>
+                                <tr>
+                                    <th>Number</th>
+                                    <th>Name</th>
+                                    <th>Latitude</th>
+                                    <th>Longitude</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.CameraLocationsDivided?.DivisibleByFive != null)
+                                {
+                                    foreach (var cameraLocation in Model.CameraLocationsDivided.DivisibleByFive)
+                                    {
+                                        <tr>
+                                            <th>@cameraLocation.Number</th>
+                                            <th>@cameraLocation.Name</th>
+                                            <th>@cameraLocation.Latitude</th>
+                                            <th>@cameraLocation.Longitude</th>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </td>
+                    <td>
+                        <table id="column15">
+                            <thead>
+                                <tr>
+                                    <th colspan="4">Cameras 3 &amp; 5</th>
+                                </tr>
+                                <tr>
+                                    <th>Number</th>
+                                    <th>Name</th>
+                                    <th>Latitude</th>
+                                    <th>Longitude</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.CameraLocationsDivided?.DivisibleByThreeAndFive != null)
+                                {
+                                    foreach (var cameraLocation in Model.CameraLocationsDivided.DivisibleByThreeAndFive)
+                                    {
+                                        <tr>
+                                            <th>@cameraLocation.Number</th>
+                                            <th>@cameraLocation.Name</th>
+                                            <th>@cameraLocation.Latitude</th>
+                                            <th>@cameraLocation.Longitude</th>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </td>
+                    <td>
+                        <table id="columnOther">
+                            <thead>
+                                <tr>
+                                    <th colspan="4">Cameras Overig</th>
+                                </tr>
+                                <tr>
+                                    <th>Number</th>
+                                    <th>Name</th>
+                                    <th>Latitude</th>
+                                    <th>Longitude</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.CameraLocationsDivided?.DivisibleNotByThreeAndFive != null)
+                                {
+                                    foreach (var cameraLocation in Model.CameraLocationsDivided.DivisibleNotByThreeAndFive)
+                                    {
+                                        <tr>
+                                            <th>@cameraLocation.Number</th>
+                                            <th>@cameraLocation.Name</th>
+                                            <th>@cameraLocation.Latitude</th>
+                                            <th>@cameraLocation.Longitude</th>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    }
+</main>
+
+@section scripts {
+    <script type="text/javascript">
+        var map = L.map('map').setView([52.0914, 5.1115], 13);
+
+                        //L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+                        //    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                        //    maxZoom: 18,
+                        //    id: 'mapbox/streets-v11',
+                        //    tileSize: 512,
+                        //    zoomOffset: -1,
+                        //    accessToken: 'your.mapbox.access.token'
+                        //}).addTo(map);
+
+    </script>
+}
+
+
