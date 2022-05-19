@@ -3,12 +3,7 @@
 A repository for showing how you write and think about code.
 Used as a starting point for a good discussion about our job.
 
-```
-* I think this is a great idea, and I am curious to see how others (**even employees within iChoosr**) fared with completing the task. :thinking:
-
-My remarks to this readme page are in italics.
-* 
-```
+> * I think this is a great idea, and I am curious to see how others (**even employees within iChoosr**) fared with completing the task. :thinking: My remarks to this readme page are quoted. * 
 
 ## Context
 
